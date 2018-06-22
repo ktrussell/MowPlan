@@ -1,0 +1,1 @@
+1.0.1 2018-06-22 - Typos and clarifications made in comments - no code changes
