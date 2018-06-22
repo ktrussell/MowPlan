@@ -1,7 +1,7 @@
 /*******************************************************************************
 *                                                                              *
 * Author    :  Kenny Trussell                                                  *
-* Version   :  1.0.0                                                           *
+* Version   :  1.0.1                                                           *
 * Date      :  21 June 2018                                                    *
 * Youtube Ch:  https://www.youtube.com/channel/UCkIJQFyZdzLKh7AR-m3t2Bw        *
 * Copyright :  Kenny Trussell 2018                                             *
