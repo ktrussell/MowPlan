@@ -202,9 +202,10 @@ int main (int argc, char ** argv)
 		#endif
 	}
 
-	// The output from clipper will not quit be what we desire for the first corner waypoint. We desire the 1st corner of each
+	// The output from clipper will not quite be what we desire for the first corner waypoint. We desire the 1st corner of each
 	// new polygon to be on the previous polygon's latitude. Clipper would put it on the latitude of the new polygon. We remember
-	//the latitude of the previous 1st corner and replace the latitude calucated by clipper with this value for the 1st corner only.
+	// the latitude of the previous 1st corner and replace the latitude calcucated by clipper with this value for the 1st corner
+	// only.
 	FirstCornerX = (int64_t) round(std::stod(WPparms[0][8]) * SCALEFACTOR);
 	
     subj.push_back(p);
@@ -250,10 +251,10 @@ int main (int argc, char ** argv)
 				outfile.precision(9); //We want lat and long to have 8 digits + decimal place.
 				if (jcnt == 0)
 				{
-					//(long double) used to hold the scaled back to decimal values of the (int64_t) integer values.
+					//(long double) used to hold the "scaled back to decimal" values of the (int64_t) integer values.
 					outfile << FirstCornerX / SCALEFACTOR << " " << (long double) (ipt.Y / LongScaleFactor) /
 						(mowdir * SCALEFACTOR) << " ";
-					FirstCornerX = (long double) ipt.X; // Remember X (latitude) of 1st corner for next polygon
+					FirstCornerX = (long double) ipt.X; // Remember X (latitude) of 1st corner for next polygon.
 				}
 				else
 				{
@@ -264,7 +265,7 @@ int main (int argc, char ** argv)
 			}
 	    }
 
-		//Clear the subject paths and fill with the points just calculated for next iteration
+		//Clear the subject paths and fill with the points just calculated for next iteration.
 		subj.clear();
 	    subj.push_back(pth3);
 
