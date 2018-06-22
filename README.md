@@ -6,6 +6,7 @@ Command line example: ./mowplan.exe inwaypointfilename outwaypointfilename inch-
 Last parameter must be "CW" or "CCW" to indicate desired direction of travel.
 
 Example command lines:
+
  	./mowplan.exe rectangle.waypoints out.waypoints 54 CCW --> will process rectangle.waypoints and generate out.waypoints with
     passes in a counterclockwise fashion that are 54 inches apart.
 
