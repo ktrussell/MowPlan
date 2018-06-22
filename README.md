@@ -10,7 +10,7 @@ Example command lines:
  	./mowplan.exe rectangle.waypoints out.waypoints 54 CCW --> will process rectangle.waypoints and generate out.waypoints with
     passes in a counterclockwise fashion that are 54 inches apart.
 
- 	./mowplan.exe rectangle.waypoints out.waypoints 54 CW -->	will process rectangle.waypoints and generate out.waypoints with
+ 	./mowplan.exe rectangle.waypoints out.waypoints 54 CW --> will process rectangle.waypoints and generate out.waypoints with
     passes in a clockwise fashion that are 54 inches apart.
 
 Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons are very large polygons.
