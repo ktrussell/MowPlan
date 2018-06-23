@@ -13,7 +13,7 @@ Example command lines:
  	./mowplan.exe rectangle.waypoints out.waypoints 54 CW --> will process rectangle.waypoints and generate out.waypoints with
     passes in a clockwise fashion that are 54 inches apart.
 
-Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons are very large polygons.
+Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons or very large polygons.
 
 To compile:
 1. Copy mowplan.cpp, clipper.cpp and clipper.hpp into the same directory.
