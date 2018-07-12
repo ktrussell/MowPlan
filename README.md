@@ -15,6 +15,8 @@ Example command lines:
 
 Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons or very large polygons.
 
+The .exe should run as-is under Windows.
+
 To compile:
 1. Copy mowplan.cpp, clipper.cpp and clipper.hpp into the same directory.
 2. To compile with GCC, execute the cmow.bat file or use it as an example for another C++ compiler.
