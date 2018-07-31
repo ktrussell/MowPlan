@@ -15,7 +15,9 @@ Example command lines:
 
 Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons or very large polygons.
 
-The .exe should run as-is under Windows.
+JUST RUNNING IT
+---------------
+The .exe should run as-is under Windows if the libgcc_s_dw2-1.dll and libwinpthread-1.dll are placed in the same directory or in the path.
 
 To compile:
 1. Copy mowplan.cpp, clipper.cpp and clipper.hpp into the same directory.
