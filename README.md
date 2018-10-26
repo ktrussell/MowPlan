@@ -12,6 +12,8 @@ Example command lines:
 
  	./mowplan.exe rectangle.waypoints out.waypoints 54 CW --> will process rectangle.waypoints and generate out.waypoints with
     passes in a clockwise fashion that are 54 inches apart.
+    
+See demonstration video at https://youtu.be/WplfVcRodPo.
 
 Note: The program works well for fairly normal polygons. It may misbehave with oddly shaped polygons or very large polygons.
 
